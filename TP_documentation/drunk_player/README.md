@@ -24,5 +24,5 @@ make
 * Utilisation
 ```
 ./drunk_player_gui.out ../data/
-![logo](logo.png)
 ```
+![logo](logo.png)
