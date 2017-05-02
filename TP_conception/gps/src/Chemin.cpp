@@ -73,6 +73,12 @@ void Chemin::partitionner(const string & ville, Chemin & cheminAvec,
 void Chemin::importerCsv(istream & is) {
 
     // TODO
+  string v1, v2; //stocker les villes
+  int d; //stocker les distances
+  while(is>>v1>>v2>>d){ //tant qu'on a toutes les valeurs pour une route
+    Route r{v1,v2,d};
+    routes_.push_back(r); //on crée une nouvelle route
+  }
 
 }
 

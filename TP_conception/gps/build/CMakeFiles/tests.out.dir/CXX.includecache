@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/etudiants/oroussee/Documents/genie_logiciel/L3_GL_etudiant/TP_conception/gps/src/Chemin.hpp
+Route.hpp
+/etudiants/oroussee/Documents/genie_logiciel/L3_GL_etudiant/TP_conception/gps/src/Route.hpp
+iostream
+-
+vector
+-
+
+/etudiants/oroussee/Documents/genie_logiciel/L3_GL_etudiant/TP_conception/gps/src/Chemin_test.cpp
+CppUTest/CommandLineTestRunner.h
+-
+Chemin.hpp
+/etudiants/oroussee/Documents/genie_logiciel/L3_GL_etudiant/TP_conception/gps/src/Chemin.hpp
+fstream
+-
+sstream
+-
+
+/etudiants/oroussee/Documents/genie_logiciel/L3_GL_etudiant/TP_conception/gps/src/Route.hpp
+string
+-
+
